@@ -1,0 +1,31 @@
+# Python
+*.pyc
+*.pyo
+*.pyd
+__pycache__/
+*.db
+*.sqlite3
+
+# Entornos virtuales
+venv/
+env/
+ENV/
+.venv/
+
+# Archivos de configuración de IDE
+.idea/
+.vscode/
+*.sublime-project
+*.sublime-workspace
+
+# Archivos de caché
+*.log
+*.pot
+
+# Archivos de entorno
+.env
+
+# Archivos de compilación
+*.egg-info/
+dist/
+build/

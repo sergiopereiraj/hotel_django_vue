@@ -54,6 +54,7 @@ python manage.py migrate
 ```
 
 7. **Corre tu proyecto:**
+
 **Back:**
 ```
 python manage.py runserver

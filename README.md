@@ -28,15 +28,16 @@ Asegúrate de tener instalado lo siguiente:
 
 2. **Crear un entorno Virtual**
 
+```
 python -m venv venv
 source venv/bin/activate  # En Windows usa: venv\Scripts\activate
-
+```
 3. **Instalar dependencias:**
-
+```
 pip install -r requirements.txt
-
+```
 4. **Configurar tus variables de entorno**
-
+```
 EMAIL_BACKEND=django.core.mail.backends.smtp.EmailBackend
 EMAIL_HOST=smtp.gmail.com
 EMAIL_PORT=587
@@ -44,18 +45,26 @@ EMAIL_USE_TLS=True
 EMAIL_HOST_USER=tu_correo@gmail.com
 EMAIL_HOST_PASSWORD=tu_contraseña
 DEFAULT_FROM_EMAIL=tu_correo@gmail.com
-
+```
 5. **Configurar tu base de dato (django tiene como default sqlite)**
+
+```
 python manage.py makemigrations
 python manage.py migrate
+```
 
-6. **Corre tu proyecto:**
+7. **Corre tu proyecto:**
 **Back:**
+```
 python manage.py runserver
+```
 
 **front:** 
+```
 
 npm run serve
+```
+
 
 
 
